@@ -24,7 +24,7 @@ fix_permissions() {
 
 session_openvpn() {
     
-        screen -d openvpn client.ovpn
+        screen -d -m -S openvpn openvpn client.ovpn
     
 }
 
